@@ -61,6 +61,6 @@ runs:
       if: ${{ inputs.java-version }} != ''
       uses: actions/setup-java@v4
       with:
-        distribution: 'oracle'
+        distribution: 'sapmachine'
         java-version: '${{ inputs.java-version }}'
   
